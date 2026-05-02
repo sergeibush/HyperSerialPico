@@ -13,6 +13,7 @@ if (NOT PICO_PROGRAM_MAIN_ENTRY)
 	# only certain pairs of pins are allowed for selected SPI interface (refer to "readme.md")
 	set(OUTPUT_SPI_DATA_PIN 4)
 	set(OUTPUT_SPI_CLOCK_PIN 2)
+	set(OUTPUT_SPI_CHIP_SELECT 5)
 	set(OUTPUT_SPI_INTERFACE spi0)
 
 	# Use multi-segment, starting index of second led strip or OFF to disable
